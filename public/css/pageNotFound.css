@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    background: rgb(40,216,241);
+      background: radial-gradient(circle, rgba(40,216,241,1) 20%, rgba(3,79,177,1) 96%);
+  }
+
+.topSpacing{
+    margin-top: 5rem;
+}
+.topSpacingXL{
+    margin-top: 10rem;
+}
+.topPadding{
+    padding-top: 10rem;
+}
+.bottemSpacingXL{
+  margin-bottom: 10rem;
+}
+
+.FortniteTitel{
+  font-family: 'Bangers', cursive;
+  color: whitesmoke;
+  font-size: 4.5em;
+  text-shadow: 2px 2px black;
+}
+
+.FortniteTussenTitel{
+  font-family: 'Bangers', cursive;
+  color: whitesmoke;
+  font-size: 2.5em;
+  text-shadow: 2px 2px black;
+}
+
+.FortniteParagraph{
+  font-family: 'Bangers', cursive;
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-shadow: 2px 2px black;
+}
+
+img{
+  height: 100rem;
+}

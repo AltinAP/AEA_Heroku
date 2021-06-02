@@ -1,0 +1,97 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+body {
+
+}
+
+.FortniteTitel{
+    font-family: 'Bangers', cursive;
+    color: whitesmoke;
+    font-size: 4.5em;
+    text-shadow: 2px 2px black;
+  }
+.navPadding{
+    padding: 1rem;
+}
+  
+  .FortniteTussenTitel{
+    font-family: 'Bangers', cursive;
+    color: whitesmoke;
+    font-size: 2.5em;
+    text-shadow: 2px 2px black;
+  }
+  
+  .FortniteParagraph{
+    font-family: 'Bangers', cursive;
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+  }
+
+.my-container {    
+    /* border: 3px solid green; */
+    /* margin-top: 30px !important; */
+        background: rgb(241,241,241);
+        background: radial-gradient(circle, rgba(241,241,241,1) 0%, rgba(157,77,187,1) 100%);
+}
+
+.my-row-nav{
+    /* border: 3px solid red;       */
+    margin-bottom: 30px;
+}
+
+.my-row-nav-col-1{
+    border: 3px dotted blue;
+}
+
+/* .my-nav-divs{
+    max-width: 100%;
+} */
+
+.my-row1{
+    /* border: 3px solid red;       */
+    background-color:transparent;
+}
+.my-row2{
+    /* border: 3px solid red; */
+    background-color:transparent;
+    margin-top: 20px !important;
+    
+}
+
+.my-row1-col1{
+    /* border: 3px dotted blue; */
+    margin: 5px;
+    background-color: transparent;
+}
+
+.my-row1-col2{
+    /* border: 3px dotted blue; */
+    margin: 5px;  
+    background-color:transparent;
+}
+.my-row1-col3{
+    /* border: 3px dotted blue; */
+    margin: 5px;    
+    background-color:transparent;
+}
+
+.my-row2-col1{
+    /* border: 3px dotted blue; */
+    margin-top: 30px !important;
+    margin-bottom: 30px;
+}
+
+.button{
+    font-family: bangers ;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+/* .animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
+    --animate-repeat: 4;
+  }
+  .animate__animated.animate__backInRight {
+    --animate-duration: 2s;
+    --animate-repeat: 4;
+  } */

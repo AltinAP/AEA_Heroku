@@ -43,13 +43,13 @@ function acceptButton() {
 function clearChoice() {
     window.api.selectedItem = -1;
     var x = document.getElementById("emptyDisplay");
-    x.src = "https://i.postimg.cc/P5b2St09/questionmark.png"
+    x.src = "https://i.postimg.cc/2y3kf4P0/black-Questionmark.png"
 }
 
 function clearBanner1() {
     window.store.questionIdx = 1;
     var x = document.getElementById("rszQuestionmark1");
-    x.src = "https://i.postimg.cc/VNY4Tx86/rsz-questionmark.png"
+    x.src = "https://i.postimg.cc/Y2ygL8qq/rsz-black-Questionmark.png"
 }
 
 function clearBanner2() {
@@ -57,7 +57,7 @@ function clearBanner2() {
         window.store.questionIdx = 2;
     }
     var y = document.getElementById("rszQuestionmark2");
-    y.src = "https://i.postimg.cc/VNY4Tx86/rsz-questionmark.png"
+    y.src = "https://i.postimg.cc/Y2ygL8qq/rsz-black-Questionmark.png"
 }
 
 function clearBanner3() {
@@ -65,7 +65,7 @@ function clearBanner3() {
         window.store.questionIdx = 3;
     }
     var z = document.getElementById("rszQuestionmark3");
-    z.src = "https://i.postimg.cc/VNY4Tx86/rsz-questionmark.png"
+    z.src = "https://i.postimg.cc/Y2ygL8qq/rsz-black-Questionmark.png"
 }
 
 function openEndPage() {

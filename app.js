@@ -31,11 +31,11 @@ app.use((req, res) => {
     }
 );
 
-app.set('port', (process.env.PORT || 5000));
+//app.set('port', (process.env.PORT || 3001));
 
-app.listen(app.get('port'));
-/* app.listen(app.get('port'), 
-    ()=>console.log( '[server] http://localhost:' + app.get('port')));*/
+// app.listen(app.get('port'));
+app.listen(app.get('port'), 
+    ()=>console.log( '[server] http://localhost:' + app.get('port')));
 
 
 
